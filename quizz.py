@@ -280,7 +280,7 @@ class Ui_QuizzWindow(object):
                     "true": "3",
                 },
                 {
-                    "question": "Aidrogogika nähili pedagogikadyr?",
+                    "question": "Androgogika nähili pedagogikadyr?",
                     "variants": (
                         "Mekdebe çenli ýaşly çagalaryň pedogogikasy",
                         "Uly ýaşly adamlaryň pedagogikasy",
@@ -289,18 +289,18 @@ class Ui_QuizzWindow(object):
                     "true": "2",
                 },
                 {
-                    "question": "Jenaýat endikleri üçin azatlykdan mahrum edilen adamlaryň saklanýan,\nolary gorkdan terbiýelemek bilen meşgullanýan pedagogika haýsy?",
+                    "question": "Jenaýat endikleri üçin azatlykdan mahrum edilen adamlaryň saklanýan,\nolary gaýtadan terbiýelemek bilen meşgullanýan pedagogika haýsy?",
                     "variants": (
                         "Düzediş-zähmet pedagogikasy",
-                        "Professional pedagogika",
+                        "Konfessional pedagogika",
                         "Sosial pedagogika",
                     ),
                     "true": "1",
                 },
                 {
-                    "question": "Pedagogikanyň metodologiýasy haýsy wezipeleri/funksiýalary ýerine ýetirýär?",
+                    "question": "Pedagogikanyň metodologiýasy haýsy wezipeleri(funksiýalary) ýerine ýetirýär?",
                     "variants": (
-                        "Tankydy, akyl ýetirmek refleksiýa",
+                        "Tankydy, akyl ýetirmek, refleksiýa",
                         "Tankydy terbiýe okatmak",
                         "Refleksiýa, akyl ýetirmek, bilim-terbiýe",
                     ),
@@ -352,9 +352,9 @@ class Ui_QuizzWindow(object):
                     "true": "1",
                 },
                 {
-                    "question": "Şahsyýetiň kemala gelmegine täsir edýän humol däl subýektler haýsylar?",
+                    "question": "Şahsyýetiň kemala gelmegine täsir edýän formal däl subýektler haýsylar?",
                     "variants": (
-                        "Gundeler, tanyşlar, erkin gatnaşyklar, sungat we medeniýet edebiýat",
+                        "Gurnaklar, tanyşlar, erkin gatnaşyklar, sungat we medeniýet edebiýat",
                         "Sosial gatlaklar, alymlar, bilim ulgamy",
                         "Garyndaşlar, ene-atalar, ýokary bilimli adamlar",
                     ),
@@ -370,7 +370,7 @@ class Ui_QuizzWindow(object):
                     "true": "2",
                 },
                 {
-                    "question": "Şahsyýetiň esasan üç sany faktoryň nesle geçirijileriň sosial sredanyň\ntälim täsiri bilen kemala gelýändigini subut edýän alym kim?",
+                    "question": "Şahsyýetiň esasan üç sany faktoryň nesle geçirijiliginiň sosial sredanyň\ntälim terbiýäniň täsiri bilen kemala gelýändigini subut edýän alym kim?",
                     "variants": (
                         "Aristotel",
                         "Platon",
@@ -379,7 +379,7 @@ class Ui_QuizzWindow(object):
                     "true": "3",
                 },
                 {
-                    "question": "Aksekrasiýa näme?",
+                    "question": "Aksellerasiýa näme?",
                     "variants": (
                         "Adamyň beden ösüşiniň tizlenmegi",
                         "Adamyň akyl taýdan ösüşiniň tizlenmegi",
@@ -388,7 +388,7 @@ class Ui_QuizzWindow(object):
                     "true": "1",
                 },
                 {
-                    "question": '"Terbiýe - bu çagalaryň ululara onsyz öýkenmesidir?" diýip alym belläpdir?',
+                    "question": '"Terbiýe - bu çagalaryň ululara aňsyz öýkenmesidir?" diýip haýsy alym belläpdir?',
                     "variants": (
                         "Monro",
                         "A.Diskweg",
@@ -400,7 +400,7 @@ class Ui_QuizzWindow(object):
                     "question": "Adamyň emosional lezzet alyş duýgysyny nähili terbiýe kämilleşdirýär?",
                     "variants": (
                         "Ahlak terbiýesi",
-                        "Gazetlik terbiýesi",
+                        "Gözellik terbiýesi",
                         "Zähmet terbiýesi",
                     ),
                     "true": "2",
@@ -408,9 +408,9 @@ class Ui_QuizzWindow(object):
                 {
                     "question": '"Beýik didaktika" kimiň işi?',
                     "variants": (
-                        "W.Roflu",
-                        "Ýa.A.Homenskiý",
-                        "A.S.Makaunko",
+                        "W.Ratke",
+                        "Ýa.A.Komenskiý",
+                        "A.S.Makarenko",
                     ),
                     "true": "2",
                 },
@@ -437,18 +437,144 @@ class Ui_QuizzWindow(object):
                     "variants": (
                         "Bilim, ylym bermek",
                         "Dersler bilen tanyşdyrmak",
-                        "Mugallym bilen okuwçysyny aragatnaşygy",
+                        "Mugallym bilen okuwçynyň aragatnaşygy",
                     ),
                     "true": "3",
                 },
                 {
-                    "question": "Indiwidual diýen düşünje nämäni aňladýar?",
+                    "question": "Indiwid diýen düşünje nämäni aňladýar?",
                     "variants": (
-                        "Häzirki zaman ösen adamzat jemgyýetini emele getiren umumylygyny aňladýar",
+                        "Häzirki zaman ösen adamzat jemgyýetini emele getiren umumylyklygyny aňladýar",
                         "Özüňe derňemäge, özüňi bahalamaga, özüňe gözegçilik etmäge ukybyň bolmagy",
                         "Kimdir biriniň gözegçiligine mätäç adamlar",
                     ),
                     "true": "3",
+                },
+                # continue
+                {
+                    "question": "Türkmenistanyň Magtymguly adyndaky Ýaşlar guramasy haçan döredildi?",
+                    "variants": (
+                        "1994-nji ýylyň 15-nji oktýabry",
+                        "1994-nji ýylyň 15-nji noýabry",
+                        "1991-nji ýylyň 16-njy noýabry",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Iholastika diýmek näme?",
+                    "variants": (
+                        "Alym-mekdep",
+                        "Dini mekdep",
+                        "Ýokary okuw",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": '"Bilim hakynda" Türkmenistanyň kanunynyň rejelenen görnüşi\nnäçe maddadan durýar?',
+                    "variants": (
+                        "60",
+                        "12",
+                        "62",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Diskusiýa görnüşi okatmagyň haýsy usulyna degişli?",
+                    "variants": (
+                        "Amaly usuly",
+                        "Görkezme usuly",
+                        "Söz üsti usuly",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Pedagogiki garaýyşlarwe pikirler ýazuwyň döremeginden öň nämelerde\nýüze çykypdyr?",
+                    "variants": (
+                        "Aýdymlarda, yrymlarda, ýadygärliklerde",
+                        "Nakyllarda, yrymlarda, meklerde",
+                        "Mukaddes kitaplarda, rowaýatlarda, däp=dessurlarda, yrymlarda",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Çaganyň ösüşinde ýaş aýratynlyklaryna bölmekde psihologik ösüş\nhaýsy ýagdaýlary öz içine alýar?",
+                    "variants": (
+                        "Ünsüň, pikirlenmäniň we sözleýşiň, temperamentiň we gylyk-häsiýetiň\n    aýratynlyklary degişlidir",
+                        "Gan-aýlanyş, içki mäzleriň, nerw sistemasynyň we ş.m. degişlidir",
+                        "Hyýala getirmeleriň, syýasy, ahlak garaýyşlarynyň nerw sistemasyny\n    we ş.m degişlidir",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Pedagog sözi ilkibaşda nähili düşünjede ulanylypdyr?",
+                    "variants": (
+                        "Gadymy Gresiýada öz eýesiniň çagasynyň mekdebe äkidip getirýän\n    gula ýüzlenipdirler",
+                        "Afiny mekdeplerinde bilim berýän mugallymlara ýüzlenipdirler",
+                        "Halypa",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Bilim bermekde dürli dersleri bilen baglanyşykda öwrenmekligi haýsy\nGündogar akyldary maslahat beripdir?",
+                    "variants": (
+                        "Al Horezmi",
+                        "Al Faraby",
+                        "Al Biruny",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Didaktika sözüni ilkinji gezek ylmy dolanyşyga girizen alym kim?",
+                    "variants": (
+                        "Frensis Bekon",
+                        "Aristotel",
+                        "Ýan Amos Komenskiý",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Bilimleri, başarnyklary, endikleri özleşdirmek hem-de emele getirmek\nmaksady bilen ýörite gurnalýan mugallymlaryň we okuwçylaryň aragatnaşygyna\nnäme diýilýär?",
+                    "variants": (
+                        "Okatmak",
+                        "Sosiallaşmak",
+                        "Terbiýelemek",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Belli bir endigi, bilimi, başarnygy ýa-da okuw öwretmek we özleşdirmek\nüçin ýörite gurnalýan sapaklaryň gidişine näme diýilýär?",
+                    "variants": (
+                        "Guramaçylyk",
+                        "Okuw prosesi",
+                        "Pedagogik iş",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Okatmagyň maksadyna we wezipelerine näme diýilýär?",
+                    "variants": (
+                        "Forma",
+                        "Metod",
+                        "Serişde",
+                    ),
+                    "true": "1",
+                },
+                {
+                    "question": "Okatmak döwrüniň kanunalaýyklygy netijesinde okuwçylara häzirki döwrüň\ntalabyna laýyk bilim we terbiýe kanun maksady bilen ulanylýan esasy\nbaş düzgünlere näme diýilýär?",
+                    "variants": (
+                        "Bilim bermek",
+                        "Okatmagyň esaslary",
+                        "Okatmagyň düzgünleri",
+                    ),
+                    "true": "1",
+                },{
+                    "question": "Mugallymyň okuwçylara maglumatlary bermek, terbiýelemek, aňlaatmak we\ndurmuşda ulanmagyň maksadyny düşündirmek boýunça tertiplenen işe näme\ndiýilýär?",
+                    "variants": (
+                        "Okatmak",
+                        "Okamak",
+                        "Didaktika",
+                    ),
+                    "true": "1",
                 },
             ]
         }
